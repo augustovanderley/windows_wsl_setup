@@ -29,6 +29,12 @@ libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-d
 
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 
+Add to .bashrc: 
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+
+
 https://github.com/pyenv/pyenv
 https://www.liquidweb.com/kb/how-to-install-pyenv-on-ubuntu-18-04/
 
