@@ -14,7 +14,7 @@ https://docs.docker.com/desktop/windows/wsl/
 
 # Fix Permission Denied in docker
 https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue
-
+and reboot machine
 
 
 # [Optional] Install WSL 2 with oh my zsh
@@ -51,3 +51,17 @@ pyenv global 3.8.10
 pip install --upgrade pip
 pip install ipython
 ```
+
+#  [Optional] Install minikube
+
+
+```bash
+curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+chmod +x ./minikube
+sudo mv ./minikube /usr/local/bin/
+
+minikube start
+
+```
+
+https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-desktop/
