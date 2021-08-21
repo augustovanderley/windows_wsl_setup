@@ -64,4 +64,4 @@ minikube start
 
 ```
 
-https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-desktop/
+https://minikube.sigs.k8s.io/docs/start/
