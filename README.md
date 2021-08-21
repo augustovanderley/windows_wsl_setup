@@ -34,7 +34,15 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
 
-
 https://github.com/pyenv/pyenv
 https://www.liquidweb.com/kb/how-to-install-pyenv-on-ubuntu-18-04/
+
+
+# install python and libs
+
+pyenv install 3.8.10
+pyenv global 3.8.10
+
+pip install --upgrade pip
+pip install ipython
 
