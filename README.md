@@ -1,8 +1,14 @@
 # windows_wsl_setup
 How to start the setup the wsl in linux with vscode and python
 
+In cmd
 
+```bash
+wsl.exe --install
+```
 # Install Ubuntu distro in microsoft Store
+
+
 
 ```bash
 sudo apt update
